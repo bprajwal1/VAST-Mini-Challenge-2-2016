@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import test from './test';
+import hazium from './hazium';
 
 const ttApp = combineReducers({
-  test,
+  hazium,
 });
 
 module.exports = ttApp;
