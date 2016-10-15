@@ -5,7 +5,7 @@ module.exports = () => {
 
   return (
     <footer className="footer">
-      <p>&copy; {year} Juan Pablo Ramírez.</p>
+      <p>&copy; {year} UTP - Data visualization.</p>
     </footer>
   );
 }
