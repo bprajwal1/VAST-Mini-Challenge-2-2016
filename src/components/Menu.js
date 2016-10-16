@@ -12,6 +12,9 @@ module.exports = () => {
           <NavLink to="/hazium">
             Hazium
           </NavLink>
+          <NavLink to="/building">
+            General building
+          </NavLink>
           <NavLink to="/test">
             Test
           </NavLink>
