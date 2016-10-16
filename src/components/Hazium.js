@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Chart from './chart';
+import Chart from './Chart';
 import haziumChart from '../charts/hazium';
 import * as haziumActions from '../actions/hazium';
 
