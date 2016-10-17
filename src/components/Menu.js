@@ -15,8 +15,8 @@ module.exports = () => {
           <NavLink to="/building">
             General building
           </NavLink>
-          <NavLink to="/test">
-            Test
+          <NavLink to="/proximity">
+            Proximity
           </NavLink>
         </ul>
       </nav>
