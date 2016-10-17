@@ -51,7 +51,7 @@ namespace :building do
       'pumpDemand'    => 12,
     }
 
-    csv_values = CSV.read(file)
+    csv_values = CSV.read file
     csv_values.shift
     response = fields.map do |key, index|
       {
