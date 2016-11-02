@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, browserHistory, hashHistory, IndexRoute } from 'react-router';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import Template from './Template';
 import Home from './Home';
 import Hazium from './Hazium';
@@ -8,7 +8,7 @@ import ProximityStatic from './ProximityStatic';
 
 module.exports = () => {
   return (
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
       <Route path="/" component={Template}>
         <IndexRoute component={Home} />
         <Route path="/" component={Home} />

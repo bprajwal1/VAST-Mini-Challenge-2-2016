@@ -8,7 +8,7 @@ module.exports = () => {
           WHAT
         </h1>
         <p>
-          This dataset is a table with items each of the measurements in the multiple sensors installed on the building on a instant of time on the different ventilation, heating and electric zones, the attributes are:
+          This dataset is a table with each iteam as the measurements of the multiple sensors of the ventilation system in the building, the attributes are:
         </p>
         <ul>
           <li>
@@ -24,10 +24,10 @@ module.exports = () => {
             <strong>Water heater gas rate:</strong> Divergent quantitative attribute that measure the gas-rate for the heater system.
           </li>
           <li>
-            <strong>Supply side inlet mass flow rate:</strong> Divergente quantitative that measures the proportion of air that enters the building.
+            <strong>Supply side inlet mass flow rate:</strong> Divergent quantitative attribute that measures the proportion of air that enters the building.
           </li>
           <li>
-            <strong>Supply Side Inlet Temperature:</strong> Divergent quantitative attribute that measures the temperature of the air that enters de air system in the building.
+            <strong>Supply Side Inlet Temperature:</strong> Divergent quantitative attribute that measures the temperature of the air that enters in the system of the building.
           </li>
           <li>
             <strong>Supply Side Outlet Temperature:</strong> Divergent quantitative attribute that measures the temperature that leave the air system of the building.
@@ -78,10 +78,10 @@ module.exports = () => {
           Analysis
         </h1>
         <p>
-          In the temperature visualization the configuration and the water heater tank is flat and have the same values, in this case the data is giving us a information that this part of the system is working very well.
+          In the temperature visualization the set point and the water heater tank is flat and have the same values, in this case the data is giving us information that this part of the system is working very well.
         </p>
         <p>
-          The temperature in the side outlet show that in weekeneds are less variation on the temperature, this tell us that most people doesn't work does days in the building, this temperature is pretty much stable and indicates that the system is working ok.
+          The temperature in the side outlet show that in weekends are less variation, this tell us that most people doesn't work does days in the building, this temperature is very stable and indicates that the system is working ok.
         </p>
         <p>
           The temperature in the weekends drop a lot less, this can indicate that the doors of the building remaing closed for the most part so the temperature more stable.
@@ -90,10 +90,10 @@ module.exports = () => {
           The energy consumption in the building is related to the consumption of the HVAC system, the visualization show us very similar trends between the two lines. What is expected from the HVAC system the weekends is that show less consumption but instead the first weekend was higher than normal working days, this can be a sign of troubles in the system.
         </p>
         <p>
-          Since the start of second week on monday 6 the energy consumption on the building was presenting a lot variation, but particularly starting on saturday 11 the system consumption was pretty high until monday, this can indicate that someting was happening, this event also can be related with tha Hazium concentration that presents also high levels on the same date, this indicate that probably the HVAC system was causing the high levels of the chemical concentration, also can be a malfunction of the system and the air circulation on the building wasn't sufficient.
+          Since the start of second week on monday 6 the energy consumption on the building was presenting a lot variation, but particularly starting on saturday 11 the system consumption was pretty high until monday, this can indicate that someting was happening, this event also can be related with tha Hazium concentration that presents also high levels on the same date, this indicate that probably the HVAC system was causing the high levels of the chemical concentration, also can be a malfunction of the system and the air circulation on the building wasn't enough.
         </p>
         <p>
-          The deli fan also presents a high consumption of energy on the weekends, the data presents that in the nights this fan is off, so a review is necessary to evaluate why the fan have such a high consumption on weekends.
+          The deli fan also presents a high consumption of energy on the weekends, the data shows that in working nights this fan is off, so a review is necessary to evaluate why the fan have such a high consumption on weekends.
         </p>
       </div>
     </div>

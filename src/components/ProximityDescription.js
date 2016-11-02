@@ -63,8 +63,20 @@ module.exports = () => {
           Analysis
         </h1>
         <p>
-          Present the cards situation...
+          In general the zones with most traffic are the elevator, stairs and the common areas, this make sense because those are the zones that people need to travel to go to their respecting offices.
         </p>
+        <p>
+          The most activity is in the second floor, this make sense because it's expected that people move around in this space, this is the floor with the most offices in the building.
+        </p>
+        <p>
+          The third floor is the one that have the less transit of the three, in this floor are a big area (zone 5) that it's reserved for a future expansion, and the data show that no one entered this zone.
+        </p>
+        <p>
+          The amount of activity in the second floor suggest that probably people with offices on it are leaving their proximity cards on the building when they leave and this reduces de amount of data registered on the first floor.
+        </p>
+        <img src="images/proxf1.jpg" className="img-responsive img-rounded center-block" />
+        <img src="images/proxf2.jpg" className="img-responsive img-rounded center-block" />
+        <img src="images/proxf3.jpg" className="img-responsive img-rounded center-block" />
       </div>
     </div>
   );
