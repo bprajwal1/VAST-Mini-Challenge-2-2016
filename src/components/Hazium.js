@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Chart from './Chart';
 import haziumChart from '../charts/hazium';
+import HaziumDescription from './HaziumDescription';
 import * as haziumActions from '../actions/hazium';
 
 const Hazium = ({ hazium, onLoad, loadChart }) => {
@@ -15,11 +16,7 @@ const Hazium = ({ hazium, onLoad, loadChart }) => {
         </div>
       </div>
       <Chart id="hazium" onLoad={onLoad} data={hazium} loadChart={loadChart} />
-      <div className="col-md-12">
-        <div className="well">
-          Aqui va a ir la descripción del gráfico.
-        </div>
-      </div>
+      <HaziumDescription />
     </div>
   );
 }
