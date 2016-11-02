@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Chart from './Chart';
 import * as actions from '../actions/proximity';
 import proximityStaticChart from '../charts/proximityStatic';
+import ProximityDescription from './ProximityDescription';
 
 const ProximityStatic = ({ staticData, onStaticLoad, loadStaticChart }) => {
   return (
@@ -15,11 +16,7 @@ const ProximityStatic = ({ staticData, onStaticLoad, loadStaticChart }) => {
         </div>
       </div>
       <Chart id="proximity-static" onLoad={onStaticLoad} data={staticData} loadChart={loadStaticChart} />
-      <div className="col-md-12">
-        <div className="well">
-          Descripción...
-        </div>
-      </div>
+      <ProximityDescription />
     </div>
   );
 };

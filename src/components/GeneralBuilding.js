@@ -5,6 +5,7 @@ import temperatureChart from '../charts/temperature';
 import powerChart from '../charts/power';
 import lowPowerChart from '../charts/lowPower';
 import * as actions from '../actions/generalBuilding';
+import GeneralBuildingDescription from './GeneralBuildingDescription';
 
 const GeneralBuilding = ({
   temperature,
@@ -27,11 +28,7 @@ const GeneralBuilding = ({
       <Chart id="building-temperature" onLoad={onTemperatureLoad} data={temperature} loadChart={loadTemperatureChart} />
       <Chart id="building-power" onLoad={onPowerLoad} data={power} loadChart={loadPowerChart} />
       <Chart id="building-low-power" onLoad={onLowPowerLoad} data={lowPower} loadChart={loadLowPowerChart} />
-      <div className="col-md-12">
-        <div className="well">
-          Descripción para el gráfico.
-        </div>
-      </div>
+      <GeneralBuildingDescription />
     </div>
   );
 }
